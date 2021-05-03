@@ -96,3 +96,46 @@ In Studio 3T create new connection with the following data - name and DB server.
 
 Studio 3T is the professional IDE, client, and GUI for MongoDB. You could visit the following link for downloading this IDE. 
 [Download Studio 3T](https://studio3t.com/download/)  
+## Building the Frontend
+For building the client-side, we'll use a popular library used to create user interfaces React. 
+#### Getting Started with Create React App
+Create React App is a command line interface (CLI) tool that will create relatively simple, production-ready React application. There're two different ways to install your production-ready React application. You can do it in a single step by running the following command at the prompt:
+```bash
+npx create-react-app my-app
+```
+Another way to do the same thing is using your favorite package manager. In this project, we'll use npm. In a terminal window, run the following
+command at the prompt:
+```bash
+npm install --global create-react-app
+```
+Once installed, you can create a new project with
+```bash
+create-react-app mern-app
+```
+Whether you use your favorite package manager or the first way to do the same in a single step, creating a new application can take a few minutes, depending on the time it takes to install the dependencies on your machine.  
+  
+When it completes, there will be a newly created my-app directory waiting for you. To view the application, you’ll start the development server, which takes care of serving
+your JavaScript code to the browser (among other things).  Navigate to ./frontend/mern-app directory now, and run the following command at the prompt: 
+```bash
+npm start
+```
+If create-react-app didn’t open a browser window automatically after starting the development server, open a browser and head to [localhost:3000](http://localhost:3000).
+Try changing the home page layout by editing the src/App.js file. You should see the browser refresh automatically, without having to reload the page.  
+
+The default port used by Express is 3000, the same default port used by ReactJS development server. Consequently, we need to resolve this port conflict by changing one of the ports. Assume that we’re adamant to keep port 3000 for React, so the port change should be applied to NodeJS bakcend. So we'll set up that this app starts a server and listens on port 3001 for connections.
+## Running the frontend and backend
+Follow the steps below to run both the frontend and backend of our MERN stack application.
+To run the server, type the following command at the prompt:
+```bash
+npm run dev
+```
+From the frontend project directory, run the command below:
+```bash
+npm start
+```
+## 🙌 Contribution
+I hope that this project will help you to unlock new ideas and improve your skills. Should you need any further information, please do not hesitate to [contact](mailto:agagula3@etf.unsa.ba) me.  
+  
+Best regards,  
+Ajdin G.
+
