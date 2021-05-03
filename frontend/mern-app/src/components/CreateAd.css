@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+.my-container{
+    margin-top: 20px;
+    margin-left: 25%;
+    width: 850px;
+    padding-top: 5px;
+    border: 2px solid gray;
+}
+
+.wrap-items{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+}
+
+input[type=text]{
+    width: 400px;
+}
+
+.wrap-items > div:nth-child(even){
+    margin-left: 10px;
+}
+
+.wrap-items > div > label{
+    font-weight: normal;
+    color: #fff;
+    font-family: 'Abel';
+}
+
+select{
+    width: 400px;
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 5px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+    font-size: 12pt;
+    -webkit-appearance: button;
+    appearance: button;
+    outline: none;
+}
+
+::placeholder{
+    font-weight: normal;
+}
+
+textarea{
+    padding: 10px 0 0 10px;
+    width: 810px;
+    margin-left: 20px;
+    height: 300px;
+}
+
+input[type=submit]{
+    margin: 15px 0 15px 20px;
+    width: 100px;
+}
