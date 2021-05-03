@@ -1,4 +1,6 @@
 # MERN Stack - Job Posting Web Application 
+This project guides you through set up the server-side using Express and development of user interfaces using a popular library React.
+
 
 ## Configuring the server-side
 
