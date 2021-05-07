@@ -1,10 +1,19 @@
 # MERN Stack - Job Posting Web Application 
 This project guides you through set up the server-side using Express and development of user interfaces using a popular library React.
 
-## General Info
+## Description
+The layout of homepage is given by the following image:  
+  
+<img src="images/test_1.PNG" width="70%" height="50%">
 In order to post a new job, you just need to click on the link -Post a job- located on the main page. It will redirect you to the new page with a form block, where you are required to enter the information about the actual job like title, name of the company, location, type of the job and the other information in the form of description.  
-When you finish entering the data, you can back to the main page and take a look at the posted job that you just entered in your database.  
-The layout of homepage is given by the following image:
+  
+
+<img src="images/test_2.PNG" width="70%" height="50%">  
+
+When you finish entering the data, you can back to the main page and take a look at the posted job that you just entered in your database. If you are interested in a specific one, just click its title and wait to be redirected to the new page that will give you more information about them.  
+So, for example, if you click on the title of the job -Sector Leader- you will be redirected to the new page shown below:  
+  
+<img src="images/test_3.PNG" width="70%" height="50%">
 
 ## Configuring the server-side
 
